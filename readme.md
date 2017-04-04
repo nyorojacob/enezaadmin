@@ -1,40 +1,37 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+## Ownership
+The application has been developed by Jacob Nyoro. 
+The source code uses open source technologies for its development, and it has been provided for free to be re-used or modified for personal use.
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+## Technologies
+* Laravel version 5.2
+* Packagist plugins 
+  - Quick Admin (current stable version; prefer-dist)
+  - Laravel Collective (version 5.2)
+* XAMPP server - MySQL database server, and Apache web server
 
-## About Laravel
+## Installation Requirements
+* PHP
+* Laravel (https://laravel.com/)
+* Web and database servers compatible with PHP and MySQL
+* Composer (https://getcomposer.org/)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+## Installation
+1. Ensure you have installed PHP
+2. Install Composer
+3. Install web and database servers
+4. Install Laravel
+5. Configure laravel installations
+6. Create the database enezaadmin by executing the enezaadmin.sql script on MySQL DB server.
+7. Host the enezaadmin laravel application; inclusive of database connectivty and environment variables configs.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Usage
+After successfully hosting the application, access the applications using the following credentials.
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
+The url will be as below:
+/BASE_URL/admin where BASE_URL is the server host plus the initial navigation url.
 
-## Learning Laravel
+Admin User: JNyoro
+Admin Email: mr.nyoro@gmail.com
+Admin Password: password10$
 
-Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
-
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+You may add roles, and other menus as so desired.
