@@ -5,8 +5,8 @@ The source code uses open source technologies for its development, and it has be
 ## Technologies
 * Laravel version 5.2
 * Packagist plugins 
-  - Quick Admin (current stable version; prefer-dist)
-  - Laravel Collective (version 5.2)
+  - Quick Admin (current stable version; prefer-dist - http://laraveldaily.com/packages/quickadmin/)
+  - Laravel Collective/html (version 5.2 - https://laravelcollective.com/docs/5.2/html)
 * XAMPP server - MySQL database server, and Apache web server
 
 ## Installation Requirements
@@ -28,10 +28,10 @@ The source code uses open source technologies for its development, and it has be
 After successfully hosting the application, access the applications using the following credentials.
 
 The url will be as below:
-/BASE_URL/admin where BASE_URL is the server host plus the initial navigation url.
+* /BASE_URL/admin where BASE_URL is the server host plus the initial navigation url.
 
-Admin User: JNyoro
-Admin Email: mr.nyoro@gmail.com
-Admin Password: password10$
+* Admin User: JNyoro
+* Admin Email: mr.nyoro@gmail.com
+* Admin Password: password10$
 
 You may add roles, and other menus as so desired.
